@@ -15,7 +15,7 @@ function custom_wc_hide_price_logout( $price, $product ) {
         $html = '<div>';
             $html .= '<a href="' . get_permalink( get_option('woocommerce_myaccount_page_id') ) . '">';
                 $html .= __('Log in to see prices', 'text-domain');
-            $html .= '<a>';
+            $html .= '</a>';
         $html .= '</div>';
 
 
